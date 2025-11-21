@@ -1,7 +1,0 @@
-
-# Keep these:
-__pycache__/
-*.pyc
-.DS_Store
-.env
-*.csv
