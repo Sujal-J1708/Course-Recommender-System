@@ -7,11 +7,13 @@
 A intelligent content-based course recommendation system that suggests relevant Coursera courses using machine learning and web scraping.
 
 ## 🌐 Live Demo
+
 <div align="center">
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://course-recommender-system-mzldyyvqvrcdcxtdwljshe.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://course-recommender-system-5xzbxyhxsmrwego4x7veus.streamlit.app/)
 
-**🔗 Direct Link:** https://course-recommender-system-mzldyyvqvrcdcxtdwljshe.streamlit.app/
+**🔗 Direct Link:** https://course-recommender-system-5xzbxyhxsmrwego4x7veus.streamlit.app/
+
 </div>
 
 ## ✨ Features
@@ -60,6 +62,8 @@ Course-Recommender-System/
 ──> DATA_LICENSE.md      
 
 ──> README.md            
+
+──> course.pkl
 
 ## 🎯 How It Works
 1. Data Processing: Course data is processed and vectorized using TF-IDF
