@@ -65,7 +65,7 @@ Course-Recommender-System/
 5. Web Interface: Clean UI for course selection and recommendation display
 
 ## Download the dataset:
-Download from: [Coursera Course Dataset on Kaggle](https://www.kaggle.com/datasets/longnguyen3774/coursera-courses-metadata-for-analytics-2025)
+Download from: [Coursera Courses Metadata for Analytics 2025 Dataset on Kaggle](https://www.kaggle.com/datasets/longnguyen3774/coursera-courses-metadata-for-analytics-2025)
 
 ## 📊 Dataset
 This project uses the Coursera Course Dataset from Kaggle:
