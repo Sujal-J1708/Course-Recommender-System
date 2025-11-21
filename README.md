@@ -47,10 +47,6 @@ Course-Recommender-System/
 
 ── generate_posters.py    # Poster fetching script
 
-── course.pkl            # Course dataset (generated)
-
-── similarity.pkl        # Similarity matrix (generated)
-
 ── requirements.txt      # Python dependencies
 
 ── LICENSE               # MIT License for code
