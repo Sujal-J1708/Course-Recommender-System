@@ -6,6 +6,9 @@
 
 A intelligent content-based course recommendation system that suggests relevant Coursera courses using machine learning and web scraping.
 
+## 🌐 Live Demo
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_APP_URL_HERE)
+
 ## ✨ Features
 
 - **🤖 Smart Recommendations**: Content-based filtering using cosine similarity
