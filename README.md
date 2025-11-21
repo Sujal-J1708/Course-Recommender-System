@@ -43,17 +43,19 @@ A intelligent content-based course recommendation system that suggests relevant 
 ## 📁 Project Structure
 Course-Recommender-System/
 
-── app.py                 # Main Streamlit application
+──> app.py                
 
-── generate_posters.py    # Poster fetching script
+──> generate_posters.py  
 
-── requirements.txt      # Python dependencies
+──> requirements.txt      
 
-── LICENSE               # MIT License for code
+──> LICENSE              
 
-── DATA_LICENSE.md       # Dataset license information
+──> DATA_LICENSE.md      
 
-── README.md            # Project documentation
+──> README.md            
+
+──> .gitignore
 
 ## 🎯 How It Works
 1. Data Processing: Course data is processed and vectorized using TF-IDF
