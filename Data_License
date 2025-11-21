@@ -1,8 +1,15 @@
+```markdown
 # Dataset License Information
 
 ## Coursera Course Dataset
 
 This project uses data from the **Coursera Course Dataset** under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
+
+### Dataset Details:
+- **Dataset**: Coursera Courses Metadata for Analytics 2025
+- **Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/longnguyen3774/coursera-courses-metadata-for-analytics-2025)
+- **Author**: Phi Long Nguyen
+- **License**: CC BY-NC-SA 4.0
 
 ### License Terms:
 - **Attribution**: You must give appropriate credit to the original author
