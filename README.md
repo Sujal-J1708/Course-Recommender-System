@@ -43,12 +43,19 @@ A intelligent content-based course recommendation system that suggests relevant 
 ## 📁 Project Structure
 **Course-Recommender-System/**
 ├── app.py                 # Main Streamlit application
+
 ├── generate_posters.py    # Poster fetching script
+
 ├── course.pkl            # Course dataset (generated)
+
 ├── similarity.pkl        # Similarity matrix (generated)
+
 ├── requirements.txt      # Python dependencies
+
 ├── LICENSE               # MIT License for code
+
 ├── DATA_LICENSE.md       # Dataset license information
+
 └── README.md            # Project documentation
 
 ## 🎯 How It Works
@@ -67,10 +74,10 @@ This project uses the Coursera Course Dataset from Kaggle under the CC BY-NC-SA 
 ❌ Not Allowed: Commercial use
 
 ## 📄 License
-**Code License**
+**Code License: **
 The source code in this repository is licensed under the MIT License - see LICENSE file for details.
 
-**Data License**
+**Data License: **
 The dataset used in this project is licensed under CC BY-NC-SA 4.0 - see DATA_LICENSE.md for complete terms.
 
 ## 🔒 Important Notes:
@@ -80,7 +87,7 @@ The dataset used in this project is licensed under CC BY-NC-SA 4.0 - see DATA_LI
 
 ## 👨‍💻 Author
 Sujal-J1708
-GitHub: @Sujal-J1708
+-GitHub: @Sujal-J1708
 
 ## 🙏 Acknowledgments
 - Coursera for course data
