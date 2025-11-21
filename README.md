@@ -65,6 +65,21 @@ Course-Recommender-System/
 
 ──> course.pkl
 
+──> Notebook
+    ──> Data_Preprocessing (CRS)
+
+### 📊 What's in the Notebook:
+- **Data Cleaning**: Handling missing values, duplicates
+- **Exploratory Data Analysis**: Insights and visualizations
+- **Feature Engineering**: Preparing data for recommendations
+- **Model Preparation**: TF-IDF vectorization and similarity computation
+
+### 🛠️ Technical Process:
+1. Raw data ingestion and validation
+2. Text preprocessing and normalization
+3. Feature extraction and transformation
+4. Similarity matrix computation
+
 ## 🎯 How It Works
 1. Data Processing: Course data is processed and vectorized using TF-IDF
 2. Similarity Calculation: Cosine similarity matrix is computed between courses
