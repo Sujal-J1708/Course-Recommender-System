@@ -64,8 +64,15 @@ Course-Recommender-System/
 4. Recommendation Engine: Suggests similar courses based on content similarity
 5. Web Interface: Clean UI for course selection and recommendation display
 
+## Download the dataset:
+Download from: [Coursera Course Dataset on Kaggle](https://www.kaggle.com/datasets/longnguyen3774/coursera-courses-metadata-for-analytics-2025)
+
 ## 📊 Dataset
-This project uses the Coursera Course Dataset from Kaggle under the CC BY-NC-SA 4.0 license.
+This project uses the Coursera Course Dataset from Kaggle:
+
+Dataset: Coursera Courses Metadata for Analytics 2025
+License: CC BY-NC-SA 4.0
+Author: Phi Long Nguyen
 
 ## License Terms:
 ✅ Allowed: Personal use, research, educational purposes
@@ -89,6 +96,7 @@ Sujal-J1708
 -GitHub: @Sujal-J1708
 
 ## 🙏 Acknowledgments
+- Phi Long Nguyen for the Coursera Courses Metadata for Analytics 2025 Dataset
 - Coursera for course data
 - Streamlit for the amazing framework
 - Scikit-learn for ML capabilities
