@@ -42,20 +42,14 @@ A intelligent content-based course recommendation system that suggests relevant 
 
 ## 📁 Project Structure
 **Course-Recommender-System/**
+
 ├── app.py                 # Main Streamlit application
-
 ├── generate_posters.py    # Poster fetching script
-
 ├── course.pkl            # Course dataset (generated)
-
 ├── similarity.pkl        # Similarity matrix (generated)
-
 ├── requirements.txt      # Python dependencies
-
 ├── LICENSE               # MIT License for code
-
 ├── DATA_LICENSE.md       # Dataset license information
-
 └── README.md            # Project documentation
 
 ## 🎯 How It Works
