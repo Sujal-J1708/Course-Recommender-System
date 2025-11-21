@@ -43,9 +43,7 @@ A intelligent content-based course recommendation system that suggests relevant 
 ## 📁 Project Structure
 Course-Recommender-System/
 
-──> app.py                
-
-──> generate_posters.py  
+──> app.py                  
 
 ──> requirements.txt      
 
@@ -54,8 +52,6 @@ Course-Recommender-System/
 ──> DATA_LICENSE.md      
 
 ──> README.md            
-
-──> .gitignore
 
 ## 🎯 How It Works
 1. Data Processing: Course data is processed and vectorized using TF-IDF
