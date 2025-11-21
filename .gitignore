@@ -1,7 +1,0 @@
-# Exclude from GitHub but keep locally
-generate_posters.py
-*.csv
-__pycache__/
-*.pyc
-.DS_Store
-.env
