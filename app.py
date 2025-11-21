@@ -304,18 +304,64 @@ if recommend_clicked and selected_course:
 # ---------------------------------------------------
 st.markdown('<div class="section-title">🔥 Trending Courses</div>', unsafe_allow_html=True)
 
-# Get random trending courses (excluding the currently selected one)
-trending_courses = df[df["name"] != selected_course].sample(min(6, len(df))).reset_index(drop=True)
+# Separate trending courses data (different from main dataset)
+def get_trending_courses():
+    """Special trending courses that are always popular"""
+    trending_data = [
+        {
+            'name': 'AI For Everyone',
+            'url': 'https://www.coursera.org/learn/ai-for-everyone',
+            'poster': 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400',
+            'description': 'AI fundamentals for non-technical learners'
+        },
+        {
+            'name': 'Google UX Design',
+            'url': 'https://www.coursera.org/professional-certificates/google-ux-design',
+            'poster': 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400',
+            'description': 'User experience design professional certificate'
+        },
+        {
+            'name': 'IBM Data Science',
+            'url': 'https://www.coursera.org/professional-certificates/ibm-data-science',
+            'poster': 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400',
+            'description': 'Comprehensive data science professional certificate'
+        },
+        {
+            'name': 'Meta Front-End Developer',
+            'url': 'https://www.coursera.org/professional-certificates/meta-front-end-developer',
+            'poster': 'https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400',
+            'description': 'Front-end development career certificate'
+        },
+        {
+            'name': 'Google IT Support',
+            'url': 'https://www.coursera.org/professional-certificates/google-it-support',
+            'poster': 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400',
+            'description': 'IT support professional certificate'
+        },
+        {
+            'name': 'Deep Learning Specialization',
+            'url': 'https://www.coursera.org/specializations/deep-learning',
+            'poster': 'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=400',
+            'description': 'Advanced neural networks and AI'
+        }
+    ]
+    return pd.DataFrame(trending_data)
 
-if len(trending_courses) > 0:
-    cols = st.columns(3)
-    for i, (_, row) in enumerate(trending_courses.iterrows()):
-        with cols[i % 3]:
-            st.markdown(f"""
-                <div class='card'>
-                    <img src="{row['poster']}" class="thumbnail" 
-                         onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg'"/>
-                    <div class="course-title">{row['name']}</div>
-                    <a href="{row['url']}" target="_blank" class="btn">View Course</a>
+# Always use trending courses sample data
+trending_courses = get_trending_courses()
+
+# Display trending courses
+cols = st.columns(3)
+for i, (_, row) in enumerate(trending_courses.iterrows()):
+    with cols[i % 3]:
+        st.markdown(f"""
+            <div class='card'>
+                <img src="{row['poster']}" class="thumbnail" 
+                     onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg'"/>
+                <div class="course-title">{row['name']}</div>
+                <div class="course-desc" style="font-size: 14px; color: #94a3b8; margin-bottom: 15px;">
+                    {row['description']}
                 </div>
-            """, unsafe_allow_html=True)
+                <a href="{row['url']}" target="_blank" class="btn">View Course</a>
+            </div>
+        """, unsafe_allow_html=True)
